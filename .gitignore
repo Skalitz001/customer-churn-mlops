@@ -1,0 +1,16 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# --- MLOps Specifics (We use DVC for these) ---
+data/
+models/
+.dvc/cache/
+.dvc/tmp/
+
+# --- IDE/OS Junk ---
+.vscode/
+.idea/
+.DS_Store
