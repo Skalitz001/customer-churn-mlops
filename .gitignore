@@ -5,8 +5,8 @@ venv/
 .env
 
 # --- MLOps Specifics (We use DVC for these) ---
-data/
-models/
+
+mlruns/
 .dvc/cache/
 .dvc/tmp/
 
